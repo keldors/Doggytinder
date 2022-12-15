@@ -9,7 +9,7 @@
             if(dog.hasBeenLiked) {
                 likedDogsHtml += `
                   <div class="summary-list">
-                    <img class="summary-pic" src="/${dog.avatar}">
+                    <img class="summary-pic" src="${dog.avatar}">
                     <p class="summary-name">${dog.name}, <span>${dog.age}</span></p>
                   </div>
                 `
